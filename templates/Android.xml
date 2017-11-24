@@ -1,0 +1,18 @@
+<templateSet group="Android">
+  <template name="tc" value="try{&#10;    &#10;}catch(Exception e){&#10;    &#10;}" description="try...catch" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="tcf" value="try{&#10;    &#10;}catch(Exception e){&#10;    &#10;}finally{&#10;    &#10;}" description="try...catch...finally" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+</templateSet>
