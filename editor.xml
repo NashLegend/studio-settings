@@ -2,25 +2,17 @@
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
     <option name="QUICK_DOC_ON_MOUSE_OVER_DELAY_MS" value="1000" />
-    <option name="ARE_LINE_NUMBERS_SHOWN" value="true" />
+    <option name="SHOW_PARAMETER_NAME_HINTS" value="false" />
   </component>
   <component name="TodoConfiguration">
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
-      <option name="FOREGROUND" value="73bf" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="54aae3" />
-    </pattern>
-    <pattern icon="default" useCustomColors="true" case-sensitive="false" pattern="\bfixme\b.*">
+    <pattern pattern="\btodo\b.*" />
+    <pattern useCustomColors="true" pattern="\bfixme\b.*">
       <option name="FOREGROUND" value="bf0a05" />
       <option name="FONT_TYPE" value="3" />
       <option name="ERROR_STRIPE_COLOR" value="54aae3" />
     </pattern>
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bxxx\b.*">
-      <option name="FOREGROUND" value="73bf" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="54aae3" />
-    </pattern>
-    <pattern icon="default" useCustomColors="true" case-sensitive="false" pattern="\bstopship\b.*">
+    <pattern pattern="\bxxx\b.*" />
+    <pattern useCustomColors="true" pattern="\bstopship\b.*">
       <option name="FOREGROUND" value="bf020f" />
       <option name="FONT_TYPE" value="3" />
       <option name="ERROR_STRIPE_COLOR" value="54aae3" />
